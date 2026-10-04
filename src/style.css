@@ -1,0 +1,14 @@
+:root { --fg: #1b1f24; --bg: #fff; --muted: #5b6470; --accent: #0b6bcb; --line: #e3e6ea; }
+@media (prefers-color-scheme: dark) { :root { --fg: #e8eaed; --bg: #121417; --muted: #9aa3ad; --accent: #5aa9ff; --line: #2a2f36; } }
+* { box-sizing: border-box; }
+body { margin: 0 auto; max-width: 720px; padding: 16px; font: 17px/1.5 system-ui, sans-serif; color: var(--fg); background: var(--bg); }
+a { color: var(--accent); }
+header { padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.brand { font-weight: 700; text-decoration: none; }
+form { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; }
+label { display: flex; flex-direction: column; font-size: 14px; color: var(--muted); }
+input, select, button { font: inherit; padding: 6px 10px; }
+#result, .answer { font-size: 20px; }
+table { border-collapse: collapse; width: 100%; }
+td, th { padding: 4px 8px; border-bottom: 1px solid var(--line); text-align: left; font-variant-numeric: tabular-nums; }
+footer { margin-top: 40px; font-size: 13px; color: var(--muted); }

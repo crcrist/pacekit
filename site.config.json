@@ -1,0 +1,10 @@
+{
+  "siteName": "PaceKit",
+  "siteUrl": "https://crcrist.github.io/pacekit",
+  "basePath": "/pacekit",
+  "monetize": {
+    "amazonTag": "",
+    "kofiUser": "",
+    "adsenseClient": ""
+  }
+}

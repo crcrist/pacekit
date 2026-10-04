@@ -1,0 +1,5 @@
+node_modules/
+dist/
+decisions.tsv
+children.tsv
+.audit/

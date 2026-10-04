@@ -1,0 +1,14 @@
+{
+  "name": "pacekit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Static running pace calculators and goal-pace pages.",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test test/*.test.js",
+    "check": "npm test && npm run build && node scripts/check-dist.js",
+    "serve": "python3 -m http.server -d dist 8080"
+  },
+  "engines": { "node": ">=20" }
+}
